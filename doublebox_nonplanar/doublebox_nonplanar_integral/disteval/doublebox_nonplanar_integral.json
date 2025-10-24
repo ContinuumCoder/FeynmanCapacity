@@ -1,0 +1,85 @@
+{
+  "name": "doublebox_nonplanar_integral",
+  "type": "integral",
+  "dimension": 6,
+  "regulators": [
+    "eps"
+  ],
+  "realp": [
+    "s",
+    "t",
+    "msq"
+  ],
+  "complexp": [],
+  "deformp_count": 6,
+  "complex_result": true,
+  "requested_orders": [
+    0
+  ],
+  "prefactor": "+(-2)",
+  "prefactor_lowest_orders": [
+    0
+  ],
+  "prefactor_highest_orders": [
+    0
+  ],
+  "expanded_prefactor": [
+    {
+      "regulator_powers": [
+        0
+      ],
+      "coefficient": "-2"
+    }
+  ],
+  "lowest_orders": [
+    0
+  ],
+  "kernels": [
+    "sector_1_order_0",
+    "sector_2_order_0",
+    "sector_3_order_0",
+    "sector_4_order_0",
+    "sector_5_order_0",
+    "sector_6_order_0",
+    "sector_7_order_0",
+    "sector_8_order_0",
+    "sector_9_order_0",
+    "sector_10_order_0",
+    "sector_11_order_0",
+    "sector_12_order_0",
+    "sector_13_order_0",
+    "sector_14_order_0",
+    "sector_15_order_0",
+    "sector_16_order_0",
+    "sector_17_order_0",
+    "sector_18_order_0"
+  ],
+  "orders": [
+    {
+      "regulator_powers": [
+        0
+      ],
+      "kernels": [
+        "sector_1_order_0",
+        "sector_2_order_0",
+        "sector_3_order_0",
+        "sector_4_order_0",
+        "sector_5_order_0",
+        "sector_6_order_0",
+        "sector_7_order_0",
+        "sector_8_order_0",
+        "sector_9_order_0",
+        "sector_10_order_0",
+        "sector_11_order_0",
+        "sector_12_order_0",
+        "sector_13_order_0",
+        "sector_14_order_0",
+        "sector_15_order_0",
+        "sector_16_order_0",
+        "sector_17_order_0",
+        "sector_18_order_0"
+      ]
+    }
+  ],
+  "generated_by": "pySecDec 1.6.5.post1 (613bb182) [Python 3.9.13, NumPy 1.26.4, SymPy 1.10.1]"
+}

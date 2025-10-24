@@ -1,0 +1,36 @@
+{
+  "name": "doublebox_nonplanar",
+  "type": "sum",
+  "max_dimension": 6,
+  "regulators": [
+    "eps"
+  ],
+  "realp": [
+    "s",
+    "t",
+    "msq"
+  ],
+  "complexp": [],
+  "complex_result": true,
+  "requested_orders": [
+    0
+  ],
+  "integrals": [
+    "doublebox_nonplanar_integral"
+  ],
+  "sums": {
+    "doublebox_nonplanar": [
+      {
+        "integral": "doublebox_nonplanar_integral",
+        "coefficient": "doublebox_nonplanar_integral_coefficient0.txt",
+        "coefficient_lowest_orders": [
+          0
+        ],
+        "coefficient_highest_orders": [
+          0
+        ]
+      }
+    ]
+  },
+  "generated_by": "pySecDec 1.6.5.post1 (613bb182) [Python 3.9.13, NumPy 1.26.4, SymPy 1.10.1]"
+}

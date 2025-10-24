@@ -1,0 +1,36 @@
+{
+  "name": "doublebox_planar",
+  "type": "sum",
+  "max_dimension": 6,
+  "regulators": [
+    "eps"
+  ],
+  "realp": [
+    "s",
+    "t",
+    "msq"
+  ],
+  "complexp": [],
+  "complex_result": true,
+  "requested_orders": [
+    0
+  ],
+  "integrals": [
+    "doublebox_planar_integral"
+  ],
+  "sums": {
+    "doublebox_planar": [
+      {
+        "integral": "doublebox_planar_integral",
+        "coefficient": "doublebox_planar_integral_coefficient0.txt",
+        "coefficient_lowest_orders": [
+          0
+        ],
+        "coefficient_highest_orders": [
+          0
+        ]
+      }
+    ]
+  },
+  "generated_by": "pySecDec 1.6.5.post1 (613bb182) [Python 3.9.13, NumPy 1.26.4, SymPy 1.10.1]"
+}

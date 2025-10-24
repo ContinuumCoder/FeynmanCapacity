@@ -1,0 +1,9 @@
+#ifndef doublebox_planar_integral_codegen_contour_deformation_sector_12_order_0_hpp_included
+#define doublebox_planar_integral_codegen_contour_deformation_sector_12_order_0_hpp_included
+#include "doublebox_planar_integral.hpp"
+#include "functions.hpp"
+namespace doublebox_planar_integral
+{
+secdecutil::SectorContainerWithDeformation<real_t, complex_t>::DeformedIntegrandFunction sector_12_order_0_contour_deformation_polynomial;
+};
+#endif
